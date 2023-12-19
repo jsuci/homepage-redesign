@@ -1,81 +1,42 @@
-* {
-  box-sizing: border-box;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Inter;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.header--main {
-  display: flex;
-  background: #ccc;
-  height: 320px;
-  padding: 30px 80px 30px 80px;
-  background-image: url('./assets/header-bg.png');
-  background-repeat: no-repeat;
-  background-position: center 100%;
-  background-size: cover;
-  align-items: baseline;
-}
-
-.hamburger {
-  display: none;
-  cursor: pointer;
-  font-size: 24px;
-  color: #fff;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-}
-
-.header--logo {
-  width: 170px;
-}
-
-.header--navlinks {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.header--navlinks > li {
-  margin-left: 30px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 21px;
-  transition: color 0.3s;
-}
-
-.header--navlinks > li:hover {
-  color: #ff8c00;
-}
-
-@media screen and (max-width: 768px) {
-  .hamburger {
-    display: flex;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-
-  nav {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #333;
+  to {
+    transform: rotate(360deg);
   }
+}
 
-  nav.show {
-    display: flex;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
   }
+}
 
-  .header--navlinks > li {
-    margin: 10px 0;
-  }
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
 }
