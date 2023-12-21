@@ -16,7 +16,7 @@ This project aims to implement a homepage redesign for a plastic surgeon website
 
 1. Clone the repository:
 
-    `git clone https://github.com/your-username/homepage-redesign.git`
+    `git clone https://github.com/jsuci/homepage-redesign.git`
 
 2. Install dependencies:
 
@@ -28,7 +28,7 @@ This project aims to implement a homepage redesign for a plastic surgeon website
 
 #### Development
 
-- Run the development server:
+- Run the development server:g
 
     `npm run dev`
 
