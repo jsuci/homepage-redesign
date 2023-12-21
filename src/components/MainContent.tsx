@@ -1,8 +1,10 @@
-import Typography from "@mui/material/Typography"
+import { Typography } from '@mui/material'
 
 function MainContent() {
   return (
-    <Typography variant="h3">I am a MainContent</Typography>
+    <>
+        <Typography variant='h3' component='h1' gutterBottom>Hello World</Typography>
+    </>
   )
 }
 
