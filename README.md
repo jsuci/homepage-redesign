@@ -4,6 +4,18 @@
 
 This project aims to implement a homepage redesign for a plastic surgeon website based on the provided Figma design. The design includes essential elements such as navigation, hero section, content section, and footer, incorporating different layout styles and formats. The implementation is done using **React.js** and **Material-UI**.
 
+**Live Demo:** [https://jsuci.github.io/homepage-redesign/](https://jsuci.github.io/homepage-redesign/)
+
+
+### Technologies Used
+
+- **React.js**
+- **Material-UI**
+- **Vite**
+- **TypeScript**
+- **ESLint** (Linting)
+
+
 ### Getting Started
 
 #### Prerequisites
@@ -35,14 +47,19 @@ This project aims to implement a homepage redesign for a plastic surgeon website
 
 - Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
 
+#### Build
 
-### Technologies Used
+- Build the project for production:
 
-- **React.js**
-- **Material-UI**
-- **Vite**
-- **TypeScript**
-- **ESLint** (Linting)
+    `npm run build`
+    
+
+#### Preview
+
+- Preview the production build:
+
+    `npm run preview`
+    
 
 ### Author
 
