@@ -23,7 +23,7 @@ const customTheme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={customTheme}>
-      <Container sx={{bgcolor: 'rgba(0, 0, 0, 0.0)'}} disableGutters>
+      <Container sx={{bgcolor: 'rgba(0, 0, 0, 0.1)', display: "flex", flexDirection: "column"}} disableGutters>
         <HomePage />
       </Container>
     </ThemeProvider>
