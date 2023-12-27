@@ -1,7 +1,3 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import MaterialUIPage from './pages/MaterialUIPage'
 import './App.css'
 import { Container, createTheme, ThemeProvider } from '@mui/material'
 import HomePage from './pages/HomePage'
@@ -23,7 +19,7 @@ const customTheme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={customTheme}>
-      <Container sx={{bgcolor: 'rgba(0, 0, 0, 0.0)', display: "flex", flexDirection: "column"}} disableGutters>
+      <Container sx={{bgcolor: 'rgba(0, 0, 0, 0.0)', display: "flex", flexDirection: "column", paddingBlock: 2}}>
         <HomePage />
       </Container>
     </ThemeProvider>
