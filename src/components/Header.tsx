@@ -30,7 +30,7 @@ export default function Header() {
             {/* Hero */}
             <Box position='relative' sx={{display: 'flex', flexDirection: 'column'}}>
                 {/* Image */}
-                <Box component="img" src={HeroImage}  sx={{width: '100%', order: '2'}}></Box>
+                <Box component="img" src={HeroImage}  sx={{width: '100%', order: '2'}} />
 
                 {/* Text */}
                 <Box sx={{
@@ -50,7 +50,7 @@ export default function Header() {
                     order: '1',
                     paddingBlock: '1.5em'}}>
                     <Typography component="h1" sx={{ fontSize: {xs: '28px', md: '45px'}, fontWeight: '900'}}>Perfect Surgeon Matches <br/><Box component="span" color="primary.main">@ The Med Chat</Box></Typography>
-                    <Typography sx={{marginTop: '-20px'}}>The Med Chat has established itself as a leader in connecting patients with the perfect plastic surgeon since its inception in 2018.</Typography>
+                    <Typography sx={{marginTop: '-20px', fontSize: '18px'}}>The Med Chat has established itself as a leader in connecting patients with the perfect plastic surgeon since its inception in 2018.</Typography>
 
                     <Stack direction='row' spacing={2}>
                         <Button sx={{ fontWeight: '400', color: '#fff', textTransform: 'none', fontSize: '18px'}} color="primary" variant="contained">Get Started</Button>
