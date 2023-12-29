@@ -7,7 +7,7 @@ import BookImg from '../assets/book-bookmark 1.png'
 import CalendarImg from '../assets/calendar 1.png'
 import CustomCard from './ui/CustomCard'
 
-const items = [
+const cardItems = [
   {
     'image': HandshakeImg,
     'header': 'Tailored Matching',
@@ -56,7 +56,7 @@ function MainContent() {
         
         <Box sx={{ display: 'flex', flexDirection: {xs: 'column', md: 'row'}, flexWrap: 'wrap', gap: '30px', paddingBlock: '30px', justifyContent: 'center'}}>
           {/* CustomCards */}
-          {items.map((item, index) => (
+          {cardItems.map((item, index) => (
             <CustomCard key={index} image={item.image} heading={item.header} content={item.content}/>
           ))}
         </Box>
