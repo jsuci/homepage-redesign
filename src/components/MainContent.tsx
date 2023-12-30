@@ -144,13 +144,6 @@ function MainContent() {
           padding: "2em",
         }}
       >
-        {/* Image */}
-        {/* <Box
-          component="img"
-          src={SectionImg}
-          sx={{ width: "100%", order: "2" }}
-        /> */}
-
         {/* Text */}
         <Box
           sx={{
