@@ -141,6 +141,7 @@ function MainContent() {
           position: "relative",
           justifyContent: "center",
           backgroundImage: `url(${SectionImg})`,
+          backgroundRepeat: "no-repeat",
           padding: "2em",
         }}
       >
